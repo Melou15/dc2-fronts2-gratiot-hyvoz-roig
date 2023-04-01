@@ -72,6 +72,17 @@
         font-size: 18px;
         color:#80646A;
     }
+
+    .conf{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .conf img{
+        width: 100px;
+        height: auto;
+    }
 </style>
 
 

@@ -111,6 +111,13 @@ include 'db.class.php';
 
 			<h2>Ils nous ont fait confiance</h2>
 
+			<div class="conf">
+
+			<div><a href="https://cyrillignac.com"><img src="images/cyril.png" alt="logo cyril lignac"></div></a>
+			<div><a href="http://www.michelkayser.com/"><img src="images/alexandre.png" alt="logo alexandre"></a></div>
+			<div><a href="https://www.relaischateaux.com/fr/france/restaurant/jardin-des-sens-montpellier"><img src="images/jardin.png" alt="logo jardin des sens"></a></div>
+		</div>
+
 
 			<?php include 'footer.php';?>
 		</body>
