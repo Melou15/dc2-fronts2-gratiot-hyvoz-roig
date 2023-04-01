@@ -1,5 +1,9 @@
 <style>
 
+	header{
+		font-family: 'Raleway', sans-serif;
+	}
+
 	#entete 
 	{
 		display: flex;
@@ -48,7 +52,8 @@
 </style>
 <header id="entete">
 	<div>
-		<img class="logo" src="images/logo-dutty-fruit.png" alt="logo-dutty-fruit">
+		<a href="accueil.php">
+		<img class="logo" src="images/logo-dutty-fruit.png" alt="logo-dutty-fruit"></a>
 	</div>
 	<div>	
 		<nav>
@@ -66,4 +71,7 @@
 	
 </header>
 
-	<img class="banière" src="images/banière-dutty-fruit.png" alt="banière-dutty-fruit">
+	<a href="accueil.php"><img class="banière" src="images/banière-dutty-fruit.png" alt="banière-dutty-fruit"></a>
+
+
+	
