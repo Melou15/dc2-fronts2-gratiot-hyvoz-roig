@@ -16,8 +16,6 @@ include 'db.class.php';
 	<?php include 'header.php';?>
 	<?php include 'accueilcss.php' ;?>
 
-	<img class="banière" src="images/banière-dutty-fruit.png" alt="banière-dutty-fruit">
-
 	<h2> Qui sommes-nous ?</h2>
 
 	<div class="presentation">

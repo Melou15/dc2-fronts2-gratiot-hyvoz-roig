@@ -39,6 +39,12 @@
 		list-style-type: none;
 
 	}
+
+	    .banière{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 </style>
 <header id="entete">
 	<div>
@@ -56,4 +62,8 @@
 			</ul>
 		</nav>
 	</div>
+
+	
 </header>
+
+	<img class="banière" src="images/banière-dutty-fruit.png" alt="banière-dutty-fruit">
