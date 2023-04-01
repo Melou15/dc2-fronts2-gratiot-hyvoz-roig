@@ -7,7 +7,7 @@
   <title>Ajouter un produit</title>
 </head>
 <body>
-  <?php include 'liste_produit.php';?>
+  <?php include 'header.php';?>
   <?php include './ajoutprodcss.php';?>
   <div class="form-container">
     <h1>Ajouter un produit</h1>
@@ -29,3 +29,9 @@
       
       <input type="submit" name="submit" value="Add Product">
     </form>
+   </div>
+
+   <?php include 'liste_produit.php';?>
+   
+
+    <?php include 'footer.php';?>

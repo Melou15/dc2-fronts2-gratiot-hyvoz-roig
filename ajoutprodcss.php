@@ -1,4 +1,13 @@
 <style>
+
+  body{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  h1{
+    text-align: center;
+  }
+
  .form-container {
       max-width: 500px;
       margin: 0 auto;
@@ -28,7 +37,7 @@
       width: 100%;
       margin-top: 20px;
       padding: 10px;
-      background-color: #F80226;
+      background-color: #F4315B;
       color: #fff;
       border: none;
       border-radius: 5px;
