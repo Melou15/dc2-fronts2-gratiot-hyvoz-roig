@@ -60,8 +60,7 @@
 			<ul>
 				<li><a href="#">PRODUITS</a></li>
 				<li><a href="#">PANIER</a></li>
-				<li><a href="#">CLIENTS</a></li>
-				<li><a href="#">CONTACT</a></li>
+				<li><a href="contact.php">CONTACT</a></li>
 				<li><a href="ajoutprod.php">Ajouter un produit</a></li>
 				<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
 			</ul>

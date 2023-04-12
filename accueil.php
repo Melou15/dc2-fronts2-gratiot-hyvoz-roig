@@ -39,7 +39,7 @@ include 'db.class.php';
 
 
 				<div class="fichefruit">
-					<a href="#">
+					<a href="fraise.php">
 						<div class="fraise"></div>	
 						<div>
 							<img src="images/fraise.png">
@@ -50,7 +50,7 @@ include 'db.class.php';
 				</div>
 
 				<div class="fichefruit">
-					<a href="#">
+					<a href="framboise.php">
 						<div class="framboise"></div>	
 						<div>
 							<img src="images/framboise.png">
@@ -61,7 +61,7 @@ include 'db.class.php';
 				</div>
 
 				<div class="fichefruit">
-					<a href="#">
+					<a href="mangue.php">
 						<div class="mangue"></div>	
 						<div>
 							<img src="images/mangue.png">
@@ -72,7 +72,7 @@ include 'db.class.php';
 				</div>
 
 				<div class="fichefruit">
-					<a href="#">
+					<a href="poire.php">
 						<div class="poire"></div>	
 						<div>
 							<img src="images/poire.png">
@@ -83,7 +83,7 @@ include 'db.class.php';
 				</div>
 
 				<div class="fichefruit">
-					<a href="#">
+					<a href="raisin.php">
 						<div class="raisin"></div>	
 						<div>
 							<img src="images/raisin.png">
@@ -94,7 +94,7 @@ include 'db.class.php';
 				</div>
 
 				<div class="fichefruit">
-					<a href="#">
+					<a href="banane.php">
 						<div class="banane"></div>	
 						<div>
 							<img src="images/banane.png">

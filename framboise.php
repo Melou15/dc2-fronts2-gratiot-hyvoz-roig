@@ -63,16 +63,17 @@ include 'db.class.php';
   <?php include 'header.php';?>
   <div class="product-container">
     <div>
-      <img class="product-image" src="images/fraise.png" alt="image de framboise">
+      <img class="product-image" src="images/framboise.png" alt="image de framboise">
     </div>
     <div class="product-details">
-      <h1 class="product-name">FRAISE</h1>
-      <h2 class="product-price">1€</h2>
+      <h1 class="product-name">FRAMBOISE</h1>
+      <h2 class="product-price">2€</h2>
       <p class="product-quantity">Quantité: <input type="number" value="1"></p>
-      <p class="product-description">Nous sommes ravis de vous présenter notre sélection de fraises, l'un des fruits les plus appréciés pour sa saveur délicieuse et sa texture juteuse.
-Les fraises sont riches en vitamine C, en antioxydants et en fibres alimentaires, ce qui les rend non seulement délicieuses, mais aussi bénéfiques pour la santé. Elles sont parfaites pour les desserts, les salades de fruits, les smoothies et autres préparations culinaires.
+      <p class="product-description">Nous sommes heureux de vous présenter notre sélection de framboises, un fruit sucré et juteux qui est parfait pour les desserts, les smoothies et autres préparations culinaires.
 
+Nos framboises sont cultivées avec soin dans des fermes locales et sélectionnées pour leur qualité supérieure. Elles sont cueillies à la main à leur apogée de maturité pour garantir leur goût sucré et leur texture juteuse. Les framboises que nous proposons sont 100% naturelles, sans conservateurs ni additifs, pour une expérience gustative pure et saine.
 
+Les framboises sont riches en vitamine C, en fibres alimentaires et en antioxydants, ce qui les rend non seulement délicieuses, mais également bénéfiques pour la santé. Elles sont parfaites pour ajouter de la couleur et de la saveur à vos plats.
 
 </p>
     </div>
