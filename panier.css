@@ -1,0 +1,91 @@
+body {
+        font-family: 'Raleway', sans-serif;
+    }
+
+h2{
+        text-align: center;
+        font-size: 40px;
+    }
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 10px;
+  background-color: #F4315B;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #F4315B;
+  cursor: pointer;
+}
+        
+  form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+    background-color: #F4315B;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: white;
+    color: #F4315B;
+    border: 2px solid #F4315B;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #F4315B;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #F4315B;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
