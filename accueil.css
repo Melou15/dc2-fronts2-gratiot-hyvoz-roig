@@ -82,5 +82,11 @@
         height: auto;
     }
 
-
+#passer-commande-btn {
+  display: block;
+  margin: 20px auto; /* ajoute une marge de 20px en haut et en bas, et centre horizontalement */
+  text-align: center;
+  padding: 10px;
+  line-height: normal;
+}
 

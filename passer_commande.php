@@ -3,26 +3,30 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Passer commande</title>
     <script src="https://kit.fontawesome.com/2c70a62eec.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="accueil.css">
     <link rel="stylesheet" href="panier.css">
-    </head>
+    <title>Panier</title>
+    
+</head>
 <body>
     
     <?php 
-    include 'header.php'; ?>
+    include 'header.php'; 
+    ?>
 
-    <h2>Récapitulatif de commande</h2>
+    <h2>Récapitulatif du panier</h2>
     
     <?php include 'affiche_panier.php'; ?>
     
-    <h2>Informations de livraison et de facturation</h2>
+    <button id="passer-commande-btn">Passer commande</button>
+    
+    <h2 id="informations-titre" style="display: none;">Informations de livraison et de facturation</h2>
 
-    <form action="valider_commande.php" method="post">
+    <form id="formulaire-commande" action="valider_commande.php" method="post" style="display: none;">
         <fieldset>
             <legend>Informations personnelles</legend>
             <label for="nom">Nom:</label>
@@ -54,5 +58,20 @@
     </form>
 
     <?php include 'footer.php'; ?>
+
+    <script>
+      const passerCommandeBtn = document.getElementById('passer-commande-btn');
+      const formulaireCommande = document.getElementById('formulaire-commande');
+      const infoTitre = document.getElementById('informations-titre');
+
+      passerCommandeBtn.addEventListener('click', () => {
+        // Cacher le bouton "Passer commande"
+        passerCommandeBtn.style.display = 'none';
+
+        // Afficher le formulaire de validation de commande
+        formulaireCommande.style.display = 'block';
+        infoTitre.style.display = 'block';
+    });
+</script>
 </body>
 </html>

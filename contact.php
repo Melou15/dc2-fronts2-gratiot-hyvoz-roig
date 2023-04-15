@@ -1,6 +1,3 @@
-<?php
-include 'db.class.php';
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +7,7 @@ include 'db.class.php';
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap" rel="stylesheet">
 </head>
-	<title>Formulaire de commande de fruits</title>
+	<title>CONTACT</title>
 </head>
 <style>
 		body {
@@ -71,6 +68,8 @@ include 'db.class.php';
 		<textarea id="adresse" name="adresse" rows="4" required></textarea>
 		<label for="telephone">Téléphone :</label>
 		<input type="text" id="telephone" name="telephone" required>
+		<label for="message">Votre message :</label>
+		<textarea id="message" name="message" rows="4" required></textarea>
 		<input type="submit" value="Envoyer">
 	</form>
 

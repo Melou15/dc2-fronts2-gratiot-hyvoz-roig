@@ -1,16 +1,16 @@
 <?php
 // Get form data
-$name = $_POST['name'];
+$name = utf8_encode($_POST['name']);
 $price = $_POST['price'];
 $quantity = $_POST['quantity'];
-$description = $_POST['description'];
+$description = utf8_encode($_POST['description']);
 $picture = $_FILES['picture']['name'];
 
 // Connect to database
-$host = "localhost";
-$username = "roig";
-$password = "dc2dutyfruits";
-$database = "duty_fruit";
+$host = "melisswroig.mysql.db";
+$username = "melisswroig";
+$password = "dHeQ6ead7f93JtCF";
+$database = "melisswroig";
 
 $conn = mysqli_connect($host, $username, $password, $database);
 
@@ -24,7 +24,9 @@ $sql = "INSERT INTO produits (nom_produit, prix_produit, qt_produit, desc_produi
 
 if (mysqli_query($conn, $sql)) {
   move_uploaded_file($_FILES['picture']['tmp_name'], "uploads/$picture");
-  echo "Product added successfully!";
+  // Redirect to ajoutprod.php
+  header('Location: https://melissa-roig.fr/duty_fruit/ajoutprod.php');
+  exit;
 } else {
   echo "Error adding product: " . mysqli_error($conn);
 }

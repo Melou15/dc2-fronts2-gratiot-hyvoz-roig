@@ -10,11 +10,18 @@ include 'db.class.php';
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="accueil.css">
 	<title>HYVOZ-GRATIOT-ROIG</title>
 </head>
 <body>
 	<?php include 'header.php';?>
-	<?php include 'accueilcss.php' ;?>
+
+	<h2>Nos fruits</h2>	
+			<section class="position_fruits">
+			</section>	
+
+
+				<?php include 'afficher_liste_prod.php';?>
 
 	<h2> Qui sommes-nous ?</h2>
 
@@ -33,13 +40,7 @@ include 'db.class.php';
 					<br>Nous sommes ravis de partager notre passion pour les fruits avec vous et nous nous engageons à fournir des produits frais, sains et savoureux pour votre plus grand plaisir.</p>
 				</div>
 			</div>
-
-			<h2>Nos fruits</h2>	
-			<section class="position_fruits">
-
-
-				<?php include 'afficher_liste_prod.php';?>
-			</section>
+			
 
 			<p class="citation">"Un fruit mûr et savoureux est la preuve que la nature peut nous offrir à la fois le plaisir et la santé." - S. Khosla</p>
 

@@ -36,7 +36,7 @@ if (isset($_POST['action'])) {
 }
 
 // Rediriger l'utilisateur vers la page du panier
-header("Location: panier.php");
+header("Location: passer_commande.php");
 exit();
 
 // Fermer la connexion à la base de données

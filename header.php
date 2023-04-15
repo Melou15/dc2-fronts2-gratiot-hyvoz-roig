@@ -52,17 +52,17 @@
 </style>
 <header id="entete">
 	<div>
-		<a href="accueil.php">
+		<a href="index.php">
 		<img class="logo" src="images/logo-dutty-fruit.png" alt="logo-dutty-fruit"></a>
 	</div>
 	<div>	
 		<nav>
 			<ul>
 				<li><a href="produit.php">PRODUITS</a></li>
-				<li><a href="#">PANIER</a></li>
 				<li><a href="contact.php">CONTACT</a></li>
-				<li><a href="ajoutprod.php">Ajouter un produit</a></li>
-				<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+				<li><a href="ajoutprod.php">AJOUTER UN PRODUIT</a></li>
+                <li><a href="recap_commandes.php">COMMANDES PASSEES</a></li>
+				<a href="passer_commande.php"><i class="fa-solid fa-basket-shopping"></i></a>
 			</ul>
 		</nav>
 	</div>
@@ -70,7 +70,7 @@
 	
 </header>
 
-	<a href="accueil.php"><img class="banière" src="images/banière-dutty-fruit.png" alt="banière-dutty-fruit"></a>
+	<a href="index.php"><img class="banière" src="images/bane-dutty-fruit.png" alt="banière-dutty-fruit"></a>
 
 
 	

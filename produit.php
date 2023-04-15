@@ -1,6 +1,3 @@
-<?php
-include 'db.class.php';
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,7 +55,24 @@ include 'db.class.php';
 </head>
 <body>
 	<?php include 'header.php';?>
+<script>
+  // Récupérer le paramètre success de l'URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const success = urlParams.get('success');
 
+  // Vérifier si le paramètre success est égal à "produit_ajoute_au_panier"
+  if (success === 'produit_ajoute_au_panier') {
+    // Afficher un message de confirmation
+    const confirmationMessage = document.createElement('div');
+    confirmationMessage.innerText = 'Le produit a été ajouté au panier.';
+    confirmationMessage.style.backgroundColor = '#dff0d8';
+    confirmationMessage.style.color = '#3c763d';
+    confirmationMessage.style.padding = '10px';
+    confirmationMessage.style.marginTop = '20px';
+    confirmationMessage.style.borderRadius = '5px';
+    document.body.appendChild(confirmationMessage);
+  }
+</script>
 			<h2>Nos fruits</h2>	
 			<?php include 'afficher_liste_prod.php';?>
 
